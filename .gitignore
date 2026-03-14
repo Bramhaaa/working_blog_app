@@ -1,0 +1,22 @@
+# Flutter/Dart build artifacts
+.dart_tool/
+build/
+
+# Platform build outputs
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# IDE/system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+lib/core/secrets/app_secrets.dart
